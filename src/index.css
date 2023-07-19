@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+nav{
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+}
+nav .logo{
+    max-width: 100px;
+}
+
+.SectionMain{
+    margin-top: 1rem;
+}
+
+.SectionDiv1{
+    display: flex;
+    justify-content: center;
+}
+
+.SectionDiv1 img{
+    max-width: 80%;
+}
+
+.SectionDiv2{
+    padding: 1.5rem;
+}
+
+.SectionDiv2 h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.SectionDiv2 p{
+    max-width: 80%;
+}
+
+/* Card */
+.card{
+    position: relative;
+    width: 250px;
+    font-size: 12px;
+    height: 350px;
+    flex: 0 0 auto;
+}
+
+.card_image{
+    width: 100%;
+    border-radius: 9px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.card_stats{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.card_stats img{
+    height: 14px;
+}
+
+.gray{
+    color: #918e9b;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.card_parent{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    /* overflow: hidden; */
+    height: 30rem;
+    column-gap: 1rem;
+}
+
+.card_title{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card_content{
+    padding: 0 0.75rem;
+}
+
+.sold_out{
+    position: absolute;
+    background-color: white;
+    padding: 0.3rem 1rem;
+    margin: 1rem;
+}
